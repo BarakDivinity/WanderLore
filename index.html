@@ -10,6 +10,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!--Arrow-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 
   <style>
     /* Custom styling for premium look */
@@ -30,20 +32,24 @@
     }
 
     .btn-premium {
-      background: linear-gradient(135deg, #4F46E5 0%, #3B82F6 100%);
-      box-shadow: 0 4px 14px 0 rgba(59, 130, 246, 0.4);
+      background: linear-gradient(135deg, #D4AF37 0%, #B8860B 100%);
+      box-shadow: 0 4px 14px 0 rgba(212, 175, 55, 0.4);
     }
 
     .btn-premium:hover {
-      background: linear-gradient(135deg, #4338CA 0%, #2563EB 100%);
-      box-shadow: 0 6px 18px 0 rgba(59, 130, 246, 0.5);
+      background: linear-gradient(135deg, #C5A021 0%, #A97406 100%);
+      box-shadow: 0 6px 18px 0 rgba(212, 175, 55, 0.5);
+    }
+
+    .text-gold {
+    color: #D4AF37;
     }
 
   </style>
 </head>
 
 <body class="relative overflow-hidden bg-black">
-  <!-- Premium background with overlay -->
+  <!-- Background with overlay -->
   <div class="fixed inset-0 z-0">
     <video class="w-full h-full object-cover" autoplay muted loop playsinline>
       <source src="Videos/Background.mp4" type="video/mp4">
@@ -56,16 +62,16 @@
   <header class="fixed z-10 pt-6 px-4 sm:px-6 lg:px-8">
     <div class="flex justify-between items-center">
       <div class="text-white font-bold text-xl md:text-2xl tracking-wide serif">
-        <span class="text-blue-400">Wander</span>Lore
+        Wander<span class= "text-gold">Lore</span>
       </div>
     </div>
   </header>
 
-  <!-- Main Content with premium styling -->
+  <!-- Main Content-->
   <div class="relative z-10 flex flex-col items-center justify-center min-h-screen text-center px-4 pt-16 pb-20">
-    <div class="animate-fade">
-      <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-shadow max-w-4xl mx-auto leading-tight text-gray-100">
-        Be the first to become a Certified Pro Guide with<span class="italic text-blue-400">WanderLore</span>
+    <div>
+      <h1 class="italic text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-shadow max-w-4xl mx-auto leading-tight text-gray-100">
+        Be the first to become a Certified Pro Guide with Wander<span class= "text-gold">Lore</span>
       </h1>
 
       <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
